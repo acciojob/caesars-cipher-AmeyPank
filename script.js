@@ -41,3 +41,4 @@ function rot13(encryptedString){
 	}
 	return decreptedWords.join(" ");
 }
+module.exports = rot13;
